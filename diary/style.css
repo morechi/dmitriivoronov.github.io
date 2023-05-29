@@ -1,0 +1,423 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;400&display=swap');
+body{
+    font-family: 'Roboto Slab', serif;
+    background-image: url(https://www.solidbackgrounds.com/images/2560x1440/2560x1440-paynes-grey-solid-color-background.jpg);
+    padding: 100px 0
+}
+input, textarea{
+    border: 1px solid #999999;
+    margin-top: 5px;
+}
+.wrapper{
+    width: 1700px;
+    min-height: 800px;
+    height: auto;
+    border: 10px solid: grey;
+    margin: 0 auto;
+    background: #FAF0E6;
+}
+.header{
+    display:flex;
+    height:170px;
+    
+}
+.userpic{
+    display:flex;
+    width: 29%;
+    height: 100;
+    background: url(http://lyceum64.ru/lycphotos/logo-green-150x400.png) no-repeat center center;
+    margin-top: 15px;
+    
+    
+        
+}
+.title-block{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+    background-image: url(https://images.unsplash.com/photo-1509641498745-13c26fd1ed89?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+    
+    
+}
+.nav{
+    display: flex;
+}
+.nav ul{
+    display: flex;
+    background: #B0C4DE;/*Цвет блока быстрого доступа*/
+    width: 100%;/*Ширина блока быстрого доступа*/
+    margin-top: auto;
+    font-size: 19px;
+    text-align: center;
+    
+}
+h4{
+    font-size: 35px;
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+    font-weight: bold;
+    
+}
+
+.nav li a{
+    padding: 20px;
+    display: flex;
+    text-decoration: none;
+    color: #404040;
+    font-weight: bold;
+    border-right: 1px solid #808080;
+    transition: background .3s ease;
+    width: 180px;
+    justify-content: center;
+}
+.nav li a:hover{
+    background:#708090;
+}
+.content-wrapper{
+    display: flex;
+    margin-left: 10px;
+}
+.content{
+    padding: 10px;
+    width: 90%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+.zagolovok{
+    border-bottom: 3px solid grey;
+    text-align: center;
+    width: 113%;
+}
+.zagolovok h3{
+    font-size: 25px;
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+.sidebar{
+    padding: 20px;
+    margin-top: 50px;
+    background: #B0C4DE;
+    height: 320px;
+    width: 160px;
+    border: 3px solid grey;
+    border-radius: 5px;
+    margin-left: 11px;
+
+    
+}
+.skillsb{
+    margin-left: -20px;
+    margin-right: 0px;
+}
+.skills li{
+    transition: transform .5s ease;
+    font-size: 25px;
+    padding-top: 3px;
+    padding-top: 6px;
+    text-align: center;
+    margin-top: 7px;
+}
+.skills li:hover{
+    transform: translateX(5px);
+}
+.photo{
+    width: auto;
+    height: 370px;
+    
+
+}
+.pictures img{
+    margin-top: 50px;
+    margin-right: 15px;
+    border-bottom: 5px solid grey;
+    margin-bottom: 30px;
+    margin-left: 60px;
+    height: 370px;
+    width: auto;
+}
+
+.timeholder{
+    width: 88px;
+    height: 52px;
+    margin-left: 500px;
+    border: 3px solid grey;
+    background: aliceblue;
+}
+.time{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    font-size: 19px;
+}
+.content{
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+    font-size: 30px;
+    margin-left: 45px;
+    width: 100%;
+    margin-bottom: 300px;
+}
+.content-wrapper{
+    display: flex;
+}
+.asd{
+    display: inline;
+}
+.content p1{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 35px;
+    padding: 20px 0 20px 0;
+    margin-right: 70px;
+    
+}
+.obomne{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 660px;
+    background: #B0C4DE;
+    margin-left: 14.5%;
+    border: 2px solid grey;
+    margin-top: 12px;
+    
+}
+.content h4{
+    
+}
+.content h2{
+    line-height: 79px;
+}
+.qwerty{
+    display: flex;
+    justify-content: space-around;
+}
+.school{
+    display: inline-block;
+
+}
+a{
+   text-decoration: none; 
+    color: #000;
+}
+
+.school a{
+    color: #008000;    
+}
+.school h1{
+    font-size: 30px;
+    padding-top: 30px;
+    font-weight: bolder;
+    font-family: Gill Sans, sans-serif;
+}
+h5{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 30px;
+    background: #B0C4DE;
+    height: 20px;
+}
+.school img{
+    display: flex;
+    align-items: baseline;
+    width: 600px;
+    height: 330px;
+    border: 10px solid grey;
+    margin-top: 50px;
+}
+ 
+.school li{
+    font-size: 30px;
+    font-family: Gill Sans, sans-serif;
+    margin-top: -10px;
+    padding: 30px;
+    
+}
+.diploms{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.diploms img{
+    display: inline-block;
+    height: 320px;
+    width: auto;
+    border: 10px solid grey;
+}
+footer{
+    width: 100%;
+    height: auto;
+    background: #222222;
+    padding: 30px 0 30px 0;
+}
+.social{
+    display: flex;
+    justify-content: center;
+}
+.social img{
+    margin-left: 15px;
+    height: 50px;
+    width: auto;
+}
+.social img:hover{
+    opacity: 0.6;
+}
+.contact_wrapper{
+    width: 753px;
+    margin: 0 auto;
+    color: #636363;
+    
+}
+.red{
+    color: red;
+}
+.form_inputs{
+    display: flex;
+    height: 100px;
+}
+input:first-of-type{
+    margin-right: 23px;
+}
+textarea{
+    width: 100%;
+    height: 163px;
+    font-size: 18px;
+}
+input{
+    width: 360px;
+    height: 40px;
+    font-size:20px;
+    margin-bottom: 30px;
+}
+.button_block{
+    display: flex;
+    justify-content: flex-end;
+}
+input[type=submit]{
+    width: 165px;
+    height: 40px;
+    background: #4682B4;
+    color: aliceblue;
+    margin-right: 0px;
+    margin-top: 20px;
+}
+.contact_form h1,p{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.contact_form p{
+  margin-bottom: 25px;  
+}
+.contact_form h1{
+    color: #000;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    border-bottom: 2px solid #4682B4;
+    padding-bottom: 5px;
+}
+.contact_form{
+    padding: 100px 0 100px 0;
+}
+form p{
+    text-align: left;
+}
+
+}
+h3{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Gill Sans, sans-serif;
+    padding: 30px;
+}
+.novosti{
+    padding-bottom: 200px;
+}
+.novostii{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 660px;
+    background: #B0C4DE;
+    margin-left: 26%;
+    border: 2px solid grey;
+    margin-top: 50px;
+    margin-bottom: 20px; 
+}
+}
+.novosti p{
+    padding: 20px;
+}
+.clas{
+    display: flex;
+    display: inline;
+    padding: 20px;
+    align-content: space-between; 
+}
+.clas img{
+    margin-left: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.stud{
+    padding: 20px;
+}
+
+.students li{
+    font-family: Gill Sans, sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    
+}
+.port{
+    display: flex;
+    justify-content: center;
+    padding 30px;
+}
+.port img{
+    height: 70px;
+    width: auto;
+    padding: 20px;
+}
+.uroki{
+    display: flex;
+    justify-content: center;
+}
+.uroki img{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 700px;
+    width: auto;
+    border: 3px solid grey;
+}
+.izmen{
+    display: flex;
+    align-content: space-between;
+}
+.izmenmat{
+    display: inline;
+}
+.izmenmat img{
+    height: 500px;
+    width: auto;
+    border: 3px solid grey;
+    margin-left: 76%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.izmtext {
+    width: 100%;
+    padding: 20px;
+    font-weight: bold;
+    margin-left: 30%;
+}

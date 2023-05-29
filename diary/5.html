@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Teacher</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+ 
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div class="title-block">
+                <h1>Ваш персональный сайт</h1>
+            </div><!-- Название заголовка -->
+            <div class="userpic" ></div>
+            </div>
+        <div class="nav">
+            <ul>
+                <li><a href="index.html">Обо мне</a></li>
+                <li><a href="2.html">Объявления</a></li>
+                <li><a href="3.html">Учащиеся</a></li>
+                <li><a href="4.html">Уроки</a></li>
+                <li><a href="5.html">Материалы</a></li>
+                <div class="timeholder"><div class="time" id="timedisplay"></div></div>
+            </ul>
+        </div>
+         <script type="text/javascript">
+function getDate()
+{
+    var date = new Date();
+    var hours = date.getHours();
+    var minutes = date.getMinutes();
+    var seconds = date.getSeconds();
+    //По надобности условие ниже повторить с minutes и hours
+    if(seconds < 10)
+    {
+        seconds = '0' + seconds;
+    }
+    document.getElementById('timedisplay').innerHTML = hours + ':' + minutes + ':' + seconds;
+}
+setInterval(getDate, 0);
+</script>
+<div id="timedisplay"></div>
+        <div class="novostii"><h4>Материалы</h4></div>
+        <div class="stud"><p>На этой странице вы сможете опубликовать необходимые учебные материалы и полезные ссылки</p></div>
+        <p>•</p>
+        <p>•</p>
+        <p>•</p>
+        <p>•</p>
+        <p>•</p>
+        <p>•</p>
+        <h5>Полезные ссылки</h5>
+        <p>•</p>
+        <p>•</p>
+        <p>•</p>
+        <p>•</p>
+        <p>•</p>
+        <p>•</p>
+        
+<footer>
+            <div class="fwrapper">
+            <div id="foot" class="social"><!-- В href необходимо вставить ссылку на необходимую социальную сеть! По ненадобности элемента стоит полностью удалить строку  -->
+                <a href="https://vk.com/lyceum64"><img src="https://upload.wikimedia.org/wikipedia/commons/2/21/VK.com-logo.svg"></a>
+                <a href="https://vk.com/lyceum64"><img src="https://www.pngall.com/wp-content/uploads/11/Telegram-Logo-PNG-Pic.png"></a>
+                <a href="https://vk.com/lyceum64"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/1024px-Facebook_Logo_%282019%29.png"></a>
+                <a href="https://vk.com/lyceum64"><img src="https://www.freepnglogos.com/uploads/email-png/email-messages-icon-16.png"></a>
+                <a href="https://vk.com/lyceum64"><img src="https://cdn-icons-png.flaticon.com/512/4096/4096132.png"></a> 
+                </div>
+            </div>
+        </footer>
+
+    </div>
+</body>
+</html>
